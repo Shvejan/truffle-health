@@ -1,14 +1,14 @@
 ## Software Engineering Internship Assessment for Truffle Health
 
 This project is built using Node and Express JS. \
-As a person who has worked on multipel projects in different teams, I understand the importance of writing clean and understandable code. I have tried to structure this project as clean as possible.
+As a person who has worked on multiple projects in different teams, I understand the importance of writing clean and understandable code. I have tried to structure this project as clean as possible.
 
 I used a sqlite3 database to store the medical bills data.
 
 the folder "./db" contains and the files related to database
 
 1. "connect.js" file had the database connection
-2. "api.js" file has the funcitons which run queries in the database
+2. "api.js" file has the functions which run queries on the database
 
 The database connection is done through Knex package
 
