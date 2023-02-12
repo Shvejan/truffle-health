@@ -1,12 +1,18 @@
 ## Software Engineering Internship Assessment for Truffle Health
 
-This project built using Node and Express JS.
+This project is built using Node and Express JS. \
+As a person who has worked on multipel projects in different teams, I understand the importance of writing clean and understandable code. I have tried to structure this project as clean as possible.
 
-I have also used a sqlite3 database to store the medical bills data.
+I used a sqlite3 database to store the medical bills data.
+
+the folder "./db" contains and the files related to database
+
+1. "connect.js" file had the database connection
+2. "api.js" file has the funcitons which run queries in the database
 
 The database connection is done through Knex package
 
-db.sqlite3 file has already been setup with a table to hold the midical bills data, the table schema is as follows
+db.sqlite3 file has already been setup with a table to hold the medical bills data, the table schema is as follows
 
 CREATE TABLE IF NOT EXISTS "medical-bills" ( \
 "name" TEXT, \
@@ -43,7 +49,7 @@ to make API calls use any API testing platform like Postman to make API calls
     with the following data in the body in JSON format \
      { \
      "name":"Alex", \
-     "hospital":"children hosptal", \
+     "hospital":"NYU Langone", \
      "date-of-service":"01/10/2023", \
      "bill-amount":502.8, \
      "address":"Brooklyn NY" \
